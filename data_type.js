@@ -1,9 +1,9 @@
-let radius = 5
-const pi = 3.14
-let area
+let data = 8        // number
+let user = 'Teju'   // string
 
-radius = 7
+console.log(data + user);
 
-area = pi * radius * radius
+let num1 = 8
+console.log(typeof num1, data, user);
 
-console.log(area)
+console.log(typeof user)
