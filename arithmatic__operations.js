@@ -1,29 +1,24 @@
-let  num1 = 5
+let a = 5;
+let b = 3;
 
-let num2 = 8
+console.log(" Addittion:" , a + b);
+console.log(" Subtraction:" , a - b);
+console.log(" Multiplication:" , a * b);
+console.log(" Division:" , a / b);
+console.log(" Modulus:" , a % b);
+console.log(" Exponential:" , a ** b);
 
-let result = num1 + num2
-console.log(result);
+console.log("50" + 5);
+console.log(50 +  5);
+console.log("50" - 5);
+console.log("50" / 5);
+console.log("50" * 5);
+console.log("50" % 5);
+console.log("50" ** 5);
 
-let  num1 = true
+console.log(a++);
+console.log(++a);
+console.log(a--);
+console.log(--a);
 
-let num2 = true
-
-let result1 = num1 + num2
-console.log(result1);
-
-let num = 5
-
-let x = num++  // post increment
-let y = ++num  // pre increment
-
-console.log(x, y, num);
-
-let result3 = Math.pow(4,3)
-console.log(result3);
-
-let result4 = num ** num
-console.log(result4);
-
-let result5 = 5 ** 5
-console.log(result5);
+console.log( "A" + "B")

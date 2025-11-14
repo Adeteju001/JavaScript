@@ -1,10 +1,17 @@
-let x = 5
-let y = 8
+console.log( 5 > 2);
+console.log( 5 < 2);
 
-let data = x >= y
-let data1 = x == y // check for value only
+console.log( 5 >= 2);
+console.log( 5 <= 2);
 
-let z = '5'
-let data2 = x === z // check both value and type
+console.log( 5 == 2);
+console.log( 5 == 5);
 
-console.log(data, data1, data2);
+console.log( "5" === 5);
+console.log( "5" == 5);
+
+console.log( "5" != 5);
+console.log( 5 != 5);
+
+console.log( "5" !== 5);
+console.log( 5 !== 5);
