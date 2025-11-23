@@ -1,27 +1,27 @@
-let time = 7am;
+let day = 1;
 
 switch (day) {
-    case 1 (7am):
-        console.log("Monday");
+    case 1:
+        console.log("Monday at 7am");
         break;
-    case 2 (8am):
-        console.log("Tuesday");
+    case 2:
+        console.log("Tuesday at 8am");
         break;
-    case 3 (9am):
-        console.log("Wednesday");
+    case 3:
+        console.log("Wednesday at 9am");
         break;
-    case 4 (10am):
-        console.log("Thursday");
+    case 4:
+        console.log("Thursday at 10am");
         break;
-    case 5 (5am):
-        console.log("Friday");
+    case 5:
+        console.log("Friday at 5am");
         break;
-    case 6 (4am):
-        console.log("Saturday");
+    case 6:
+        console.log("Saturday at 4am");
         break;
-    case 7 (7am):
-        console.log("Sunday");
+    case 7:
+        console.log("Sunday at 7am");
         break;
     default:
-        console.log("Take a break")
+        console.log("Take a break");
 }
