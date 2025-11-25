@@ -1,11 +1,16 @@
-let num = 4
-console.log(num)
+let name = "Teju"
+let age = 25
+let country = "Nigeria"
+let department = "Nursing science"
 
-let username = 'teju'
-console.log(username + num)
+console.log(name, age, country, department);
 
-num = 5
-console.log(3 + num)
+var x = 10;
+let y = 20;
 
-let username1 = 'teju'
-console.log(username1 + num)
+if(true) {
+    x = 30;
+    y = 40;
+}
+
+console.log("x =", x, "y =", y)
